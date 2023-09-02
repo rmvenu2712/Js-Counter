@@ -1,0 +1,67 @@
+body,html{
+     
+     background-color: rgb(5, 0, 101);
+     margin: 0px;    
+    
+     
+}
+.counter{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-around;
+    color: rgb(158, 210, 255);
+    text-align: center; 
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(161, 188, 255);
+    background-color: transparent;
+    box-shadow: 2px 5px 20px 2px rgb(0, 21, 157);
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+}
+.btn{
+    border-radius:100%;
+    border: 0.7px solid rgb(84, 101, 255) ;
+    background-color: transparent;
+    padding: 30px;
+    color: rgb(158, 210, 255); 
+}
+.count{
+    font-size: 150px;
+    
+}
+.btn:hover{
+    border: 2px solid rgb(125, 110, 255);
+
+    
+}
+.rbtn{
+    border-radius:100px;
+    border: 0.7px solid rgb(84, 101, 255) ;
+    background-color: transparent;
+    padding: 10px;
+    color: rgb(158, 210, 255);
+    display: flex;
+    justify-content: center;
+    
+}
+.r2btn :hover{
+   padding: 15px;
+   border: rgb(227, 227, 255);
+}
+.r2btn{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and(max-width:900Px){
+  
+}
