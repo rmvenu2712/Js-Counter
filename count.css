@@ -77,6 +77,50 @@ footer a{
     color: rgb(0, 0, 195);
 }
 
-@media screen and(max-width:900Px){
-  
+@media only screen and (max-width: 600px) {
+    .mini-counter{
+      width: 200px;
+      height: 50vh;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .btn{
+      
+      position: relative;
+      top: 150px;  
+        
+    }
+    .count{
+        font-size: 100px;
+    
+    }
+    .r2btn{
+        position: relative;
+      top: 150px;  
+}
+}
+
+@media only screen and (max-width: 1100px) {
+    .mini-counter{
+      width: 200px;
+      height: 50vh;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .btn{
+      
+      position: relative;
+      top: 150px;  
+        
+    }
+    .count{
+        font-size: 100px;
+    
+    }
+    .r2btn{
+        position: relative;
+      top: 150px;  
+}
 }
