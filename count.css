@@ -132,6 +132,14 @@ footer a{
       padding: 15px;
         
     }
+    .dbtn{
+        position: relative;
+        right: 25px;
+    }
+    .ibtn{
+        position: relative;
+       left: 25px;
+    }
     .count{
         font-size: 100px;
         position: relative;
