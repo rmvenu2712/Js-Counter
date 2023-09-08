@@ -19,7 +19,7 @@ body,html{
 }
 .mini-counter{
      border: 2px solid transparent ;
-     padding: 90px;
+     padding: 50px;
      border-radius: 10px;
      width: 1000px;
      box-shadow: 5px 5px 20px 5px rgba(28, 28, 28, 0.829);
@@ -41,10 +41,13 @@ h1{
     background-color: transparent;
     color: rgb(158, 210, 255); 
     font-size: 50px;
+    position: relative;
+    bottom: 130px;
 }
 .count{
     font-size: 200px;
-
+    text-align: center;
+    position: relative;
 }
 .btn:hover{
     box-shadow: 5px 5px 20px 5px rgba(59, 59, 59, 0.027);
@@ -124,30 +127,25 @@ footer a{
         font-size: 20px;
     }
     .btn{
-      
+    
       position: relative;
-      top: 110px;  
-      right: 30px;
+      top: 2px;  
+      right: 20px;
       font-size: 30px;
-      padding: 15px;
+      padding: 10px;
+      margin: 0px 10px 10px 20px;
         
     }
-    .dbtn{
-        position: relative;
-        right: 25px;
-    }
-    .ibtn{
-        position: relative;
-       left: 25px;
-    }
+   
+    
     .count{
-        font-size: 100px;
-        position: relative;
-        right: 30px;
+        font-size: 80px;
+       text-align: center;
     
     }
     .r2btn{
         position: relative;
-      top: 110px;  
+      top: 3px;
+        
 }
 }
