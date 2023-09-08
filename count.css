@@ -1,9 +1,16 @@
 body,html{
-     background-image: linear-gradient(rgba(0, 0, 186, 0.38),rgba(75, 75, 255, 0.802)),url(https://images.unsplash.com/photo-1585575141647-c2c436949374?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);     
+    margin: 0px;
+    padding: 0px;
+     
+    background-image: linear-gradient(rgba(0, 0, 186, 0.38),rgba(75, 75, 255, 0.802)),url(https://images.unsplash.com/photo-1585575141647-c2c436949374?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);     
+    background-repeat: no-repeat;
+    background-size: cover;
+  
 }
+
 .main-counter{
     font-family: 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif   ;
-    height: 97vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,27 +34,23 @@ h1{
     color: rgb(161, 188, 255);
 }
 .btn{
-    border-radius:20px;
+    border-radius:50px;
     padding: 20px;
     box-shadow: 5px 5px 20px 5px rgba(54, 54, 54, 0.65);
-    border: 3px solid transparent ;
+    border: 0px solid transparent ;
     background-color: transparent;
     color: rgb(158, 210, 255); 
-    display: flex;
-    align-items: center;
+    font-size: 50px;
 }
 .count{
     font-size: 200px;
 
 }
 .btn:hover{
-    padding: 21px;
     box-shadow: 5px 5px 20px 5px rgba(59, 59, 59, 0.027);
-    
 }
-.btn i{
-    font-size: 50px;
-}
+
+
 .rbtn{
     border-radius:20px;
     padding: 10px;
@@ -77,34 +80,41 @@ footer a{
     color: rgb(0, 0, 195);
 }
 
-@media only screen and (max-width: 600px) {
-    .mini-counter{
-      width: 200px;
-      height: 50vh;
+@media only screen and (max-width: 480px) {
+    
+    .main-counter{
+      
+    }
+    
+ /*   .mini-counter{
+      width: 30px;
+      height: 10vh;
     }
     h1{
         font-size: 20px;
     }
     .btn{
-      
       position: relative;
-      top: 150px;  
-        
+      top: 150px;      
     }
     .count{
         font-size: 100px;
-    
     }
     .r2btn{
         position: relative;
       top: 150px;  
-}
-}
+}8*/
+} 
 
 @media only screen and (max-width: 1100px) {
+    .main-counter{
+        width: 0px;
+        margin: 0px auto;
+    }
     .mini-counter{
-      width: 200px;
-      height: 50vh;
+      width: 90px;
+      height: 55vh;
+     
     }
     h1{
         font-size: 20px;
@@ -112,15 +122,20 @@ footer a{
     .btn{
       
       position: relative;
-      top: 150px;  
+      top: 110px;  
+      right: 30px;
+      font-size: 30px;
+      padding: 15px;
         
     }
     .count{
         font-size: 100px;
+        position: relative;
+        right: 30px;
     
     }
     .r2btn{
         position: relative;
-      top: 150px;  
+      top: 110px;  
 }
 }
